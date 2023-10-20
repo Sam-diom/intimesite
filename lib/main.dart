@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intimesite/model/app_model.dart';
+import 'package:intimesite/screens/homePage2.dart';
 import 'package:intimesite/screens/home_screen.dart';
 
 
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(apps), // Passez la liste d'applications à l'écran d'accueil
+      // home: HomeScreen(apps), // Passez la liste d'applications à l'écran d'accueil
+      home: MyHomePage(),
     );
   }
 }
